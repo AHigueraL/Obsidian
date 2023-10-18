@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "7ed00fd3959e9feb",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd2f9c24a4659d3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5281f81beaa457ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Juegos/00 Dashboard.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "951c4de2abba4ed9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yakuza 0.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "4b61f19d8e633881",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c0217fdf47f72a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Juegos/00 Dashboard.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eff0e7eb22afa01d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf75256ec95e057d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ede52e146109f2c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "18c5adadee6eb205",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f227094965296cc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d4d4385c8943dfaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3610c1e4308db6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a823eafaa510f5bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Juegos/00 Dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b6d31c90a8dbac26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Juegos/00 Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "095e400fd025ba83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f1554a980b2e1d41",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Juegos/00 Dashboard.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1c0217fdf47f72a5",
+  "lastOpenFiles": [
+    "Yakuza 0.md",
+    "Juegos/00 Dashboard.md",
+    "Juegos"
+  ]
+}
