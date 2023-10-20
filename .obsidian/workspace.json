@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yakuza 0.md",
-                "mode": "source",
+                "file": "Juegos/Yakuza 0.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juegos/00 Dashboard.md",
+                "file": "Juegos/Yakuza 0.md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Juegos/00 Dashboard.md",
+                "file": "Juegos/Yakuza 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Juegos/00 Dashboard.md",
+                "file": "Juegos/Yakuza 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Juegos/00 Dashboard.md"
+                "file": "Juegos/Yakuza 0.md"
               }
             }
           }
@@ -177,10 +177,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c0217fdf47f72a5",
+  "active": "ede52e146109f2c8",
   "lastOpenFiles": [
-    "Yakuza 0.md",
     "Juegos/00 Dashboard.md",
+    "Juegos/Yakuza 0.md",
     "Juegos"
   ]
 }
