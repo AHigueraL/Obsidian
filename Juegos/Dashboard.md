@@ -19,6 +19,50 @@ where file.name != "TJuego" AND date <= 202212
 sort date
 ```
 
+```dataviewjs
+const selectedYear = 2022
+
+const rawData = dv.pages("#juego").sort(page => page.date)
+
+//rawData.forEach(juego => console.log(juego.date.toString().substr(0,4)))
+
+const data = rawData.filter(d => d.date.toString().substr(0,4) == selectedYear)
+const dataLabels = data.map(page => page.file.name).values
+const dataDuration = data.map(page => page.estimatedLength).values
+const dataPlayed = data.map(page => page.playedHours).values
+
+const chartData = {
+	type: 'bar',
+	data: {
+		labels: dataLabels,
+		datasets: [{
+			label: 'Duration',
+			data: dataDuration,
+			backgroundColor: [ 
+				'rgba(255, 99, 132, 0.2)' 
+			],
+			borderColor: [ 
+				'rgba(255, 99, 132, 1)' 
+			],
+			borderWidth: 1
+		},
+		{
+			label: 'Played',
+			data: dataPlayed,
+			backgroundColor: [ 
+				'rgba(255, 0, 132, 0.2)' 
+			],
+			borderColor: [ 
+				'rgba(255, 0, 132, 1)' 
+			],
+			borderWidth: 1
+		}]
+	}
+}
+
+window.renderChart(chartData, this.container)
+```
+
 ## 2023
 ```dataview
 TABLE
@@ -26,6 +70,50 @@ estimatedLength as Duration, playedHours as "Played hours", date as Date
 from #Juego
 where file.name != "TJuego" AND date > 202212
 sort date
+```
+
+```dataviewjs
+const selectedYear = 2023
+
+const rawData = dv.pages("#juego").sort(page => page.date)
+
+//rawData.forEach(juego => console.log(juego.date.toString().substr(0,4)))
+
+const data = rawData.filter(d => d.date.toString().substr(0,4) == selectedYear)
+const dataLabels = data.map(page => page.file.name).values
+const dataDuration = data.map(page => page.estimatedLength).values
+const dataPlayed = data.map(page => page.playedHours).values
+
+const chartData = {
+	type: 'bar',
+	data: {
+		labels: dataLabels,
+		datasets: [{
+			label: 'Duration',
+			data: dataDuration,
+			backgroundColor: [ 
+				'rgba(255, 99, 132, 0.2)' 
+			],
+			borderColor: [ 
+				'rgba(255, 99, 132, 1)' 
+			],
+			borderWidth: 1
+		},
+		{
+			label: 'Played',
+			data: dataPlayed,
+			backgroundColor: [ 
+				'rgba(255, 0, 132, 0.2)' 
+			],
+			borderColor: [ 
+				'rgba(255, 0, 132, 1)' 
+			],
+			borderWidth: 1
+		}]
+	}
+}
+
+window.renderChart(chartData, this.container)
 ```
 
 ***
@@ -40,6 +128,51 @@ where file.name != "TJuego" AND state = "Finished" AND date <= 202212
 sort date
 ```
 
+```dataviewjs
+const selectedYear = 2022
+const selectedState = "Finished"
+
+const rawData = dv.pages("#juego").sort(page => page.date)
+
+//rawData.forEach(juego => console.log(juego.date.toString().substr(0,4)))
+
+const data = rawData.filter(d => d.date.toString().substr(0,4) == selectedYear && d.state == selectedState)
+const dataLabels = data.map(page => page.file.name).values
+const dataDuration = data.map(page => page.estimatedLength).values
+const dataPlayed = data.map(page => page.playedHours).values
+
+const chartData = {
+	type: 'bar',
+	data: {
+		labels: dataLabels,
+		datasets: [{
+			label: 'Duration',
+			data: dataDuration,
+			backgroundColor: [ 
+				'rgba(255, 99, 132, 0.2)' 
+			],
+			borderColor: [ 
+				'rgba(255, 99, 132, 1)' 
+			],
+			borderWidth: 1
+		},
+		{
+			label: 'Played',
+			data: dataPlayed,
+			backgroundColor: [ 
+				'rgba(255, 0, 132, 0.2)' 
+			],
+			borderColor: [ 
+				'rgba(255, 0, 132, 1)' 
+			],
+			borderWidth: 1
+		}]
+	}
+}
+
+window.renderChart(chartData, this.container)
+```
+
 ## 2023
 ```dataview
 TABLE
@@ -47,6 +180,51 @@ estimatedLength as Duration, playedHours as "Played hours", date as Date
 from #Juego
 where file.name != "TJuego" AND state = "Finished" AND date > 202212
 sort date
+```
+
+```dataviewjs
+const selectedYear = 2023
+const selectedState = "Finished"
+
+const rawData = dv.pages("#juego").sort(page => page.date)
+
+//rawData.forEach(juego => console.log(juego.date.toString().substr(0,4)))
+
+const data = rawData.filter(d => d.date.toString().substr(0,4) == selectedYear && d.state == selectedState)
+const dataLabels = data.map(page => page.file.name).values
+const dataDuration = data.map(page => page.estimatedLength).values
+const dataPlayed = data.map(page => page.playedHours).values
+
+const chartData = {
+	type: 'bar',
+	data: {
+		labels: dataLabels,
+		datasets: [{
+			label: 'Duration',
+			data: dataDuration,
+			backgroundColor: [ 
+				'rgba(255, 99, 132, 0.2)' 
+			],
+			borderColor: [ 
+				'rgba(255, 99, 132, 1)' 
+			],
+			borderWidth: 1
+		},
+		{
+			label: 'Played',
+			data: dataPlayed,
+			backgroundColor: [ 
+				'rgba(255, 0, 132, 0.2)' 
+			],
+			borderColor: [ 
+				'rgba(255, 0, 132, 1)' 
+			],
+			borderWidth: 1
+		}]
+	}
+}
+
+window.renderChart(chartData, this.container)
 ```
 
 ***
@@ -75,31 +253,31 @@ sort date
 # Backlog
 |Title|
 |---|
-|30xx|
-|20xx|
-|3D Classics|
+|[[30xx]]|
+|[[20xx]]|
+|[[3D Classics]]|
 |[A Dark Place](https://farawaytimes.itch.io/a-dark-place)|
-|A Good Snowman|
-|A Hat In Time|
-|A Monster's Expedition|
-|A Void Hope|
-|AI: The Somnium Files|
-|Alephant|
-|Annalyn|
-|Another World|
-|Antonblast|
-|Ara Fell|
-|Art Of Rally|
-|Assemble With Care|
-|Baten Kaitos|
-|Below|
-|Black & White|
-|Bomberman Story DS|
-|Bonfire Peaks|
-|Boyfriend Dungeon|
-|Bug Fables: The Everlasting Sapling|
-|Bugsnax|
-|Captain Toad|
+|[[A Good Snowman]]|
+|[[A Hat In Time]]|
+|[[A Monster's Expedition]]|
+|[[A Void Hope]]|
+|[[AI: The Somnium Files]]|
+|[[Alephant]]|
+|[[Annalyn]]|
+|[[Another World]]|
+|[[Antonblast]]|
+|[[Ara Fell]]|
+|[[Art Of Rally]]|
+|[[Assemble With Care]]|
+|[[Baten Kaitos]]|
+|[[Below]]|
+|[[Black & White]]|
+|[[Bomberman Story DS]]|
+|[[Bonfire Peaks]]|
+|[[Boyfriend Dungeon]]|
+|[[Bug Fables: The Everlasting Sapling]]|
+|[[Bugsnax]]|
+|[[Captain Toad]]|
 |Cassette Beasts|
 |Caves of Qud|
 |Chained Echoes|

@@ -1,7 +1,7 @@
 ---
 tags: juego
 date: 202310
-estimatedLength: 56,2
+estimatedLength: 56.2
 playedHours: 
 state: Playing
 ---

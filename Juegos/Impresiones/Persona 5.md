@@ -3,7 +3,7 @@ tags:
   - juego
 date: 202301
 estimatedLength: 123
-playedHours: 138,7
+playedHours: 138.7
 state: Finished
 ---
 

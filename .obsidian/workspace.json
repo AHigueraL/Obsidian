@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab7932a7d90386d2",
+        "id": "4959a5dfd1259ae6",
         "type": "tabs",
         "children": [
           {
-            "id": "efddd47656b70a4a",
+            "id": "9118b22f590e9314",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -145,10 +145,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efddd47656b70a4a",
+  "active": "9118b22f590e9314",
   "lastOpenFiles": [
-    "Juegos/Dashboard.md",
     "Juegos/Impresiones/Yakuza 0.md",
+    "Juegos/Dashboard.md",
+    "prueba.md",
+    "Juegos/Impresiones/Persona 5.md",
+    "Charts/Charts examples.md",
+    "Charts/Charts.md",
+    "Juegos/Impresiones/Bomb Rush Cyberfunk.md",
+    "Charts",
     "Juegos/Impresiones/Poinpy.md",
     "Juegos/Impresiones/Pikmin.md",
     "Juegos/Impresiones/Wario Land.md",
@@ -158,14 +164,12 @@
     "Juegos/Impresiones/Diablo II.md",
     "Juegos/Impresiones/Loop Hero.md",
     "Juegos/Impresiones/Wavetale.md",
-    "Juegos/Impresiones/Persona 5.md",
     "Juegos/Impresiones/Kentucky Route Zero.md",
     "Juegos/Impresiones/Portal.md",
     "Juegos/Impresiones/DK - King Of Swing.md",
     "Juegos/Impresiones/Pokémon Blanco-Negro.md",
     "Juegos/Impresiones/Disco Elysium.md",
     "Juegos/Impresiones/Iconoclast.md",
-    "Juegos/Impresiones/Bomb Rush Cyberfunk.md",
     "Juegos/Impresiones/Baba Is You.md",
     "Templates/TJuego.md",
     "la delgada línea roja.md",
