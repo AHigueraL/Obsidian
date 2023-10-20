@@ -4,48 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bd2f9c24a4659d3b",
+        "id": "ab7932a7d90386d2",
         "type": "tabs",
         "children": [
           {
-            "id": "5281f81beaa457ab",
+            "id": "efddd47656b70a4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juegos/00 Dashboard.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "951c4de2abba4ed9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Juegos/Yakuza 0.md",
+                "file": "Juegos/Dashboard.md",
                 "mode": "preview",
-                "source": true
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "4b61f19d8e633881",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1c0217fdf47f72a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Juegos/Yakuza 0.md",
-                "mode": "source",
                 "source": true
               }
             }
@@ -116,14 +85,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Juegos/Yakuza 0.md",
+                "file": "Juegos/Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -133,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Juegos/Yakuza 0.md",
+                "file": "Juegos/Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Juegos/Yakuza 0.md"
+                "file": "Juegos/Dashboard.md"
               }
             }
           }
@@ -164,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,10 +145,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ede52e146109f2c8",
+  "active": "efddd47656b70a4a",
   "lastOpenFiles": [
-    "Juegos/00 Dashboard.md",
-    "Juegos/Yakuza 0.md",
+    "Juegos/Dashboard.md",
+    "Juegos/Impresiones/Yakuza 0.md",
+    "Juegos/Impresiones/Poinpy.md",
+    "Juegos/Impresiones/Pikmin.md",
+    "Juegos/Impresiones/Wario Land.md",
+    "Juegos/Impresiones/The Legend Of Zelda - Tears Of The Kingdom.md",
+    "Juegos/Impresiones/Pizza Tower.md",
+    "Juegos/Impresiones/Sekiro.md",
+    "Juegos/Impresiones/Diablo II.md",
+    "Juegos/Impresiones/Loop Hero.md",
+    "Juegos/Impresiones/Wavetale.md",
+    "Juegos/Impresiones/Persona 5.md",
+    "Juegos/Impresiones/Kentucky Route Zero.md",
+    "Juegos/Impresiones/Portal.md",
+    "Juegos/Impresiones/DK - King Of Swing.md",
+    "Juegos/Impresiones/Pokémon Blanco-Negro.md",
+    "Juegos/Impresiones/Disco Elysium.md",
+    "Juegos/Impresiones/Iconoclast.md",
+    "Juegos/Impresiones/Bomb Rush Cyberfunk.md",
+    "Juegos/Impresiones/Baba Is You.md",
+    "Templates/TJuego.md",
+    "la delgada línea roja.md",
+    "Templates/Untitled.md",
+    "Templates",
+    "Juegos/Impresiones",
     "Juegos"
   ]
 }

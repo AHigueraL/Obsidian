@@ -1,4 +1,0 @@
-```dataview
-TABLE
-from #Juego
-```

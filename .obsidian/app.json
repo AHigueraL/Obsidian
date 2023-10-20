@@ -1,5 +1,9 @@
 {
   "showLineNumber": true,
-  "showInlineTitle": false,
-  "livePreview": false
+  "showInlineTitle": true,
+  "livePreview": false,
+  "propertiesInDocument": "hidden",
+  "foldIndent": false,
+  "foldHeading": false,
+  "tabSize": 4
 }

@@ -1,9 +1,12 @@
 ---
-tags: Juego
+tags: juego
+date: 202310
+estimatedLength: 56,2
+playedHours: 
+state: Playing
 ---
-# Yakuza 0
 
-Apenas empecé la historia, y quiero retomarlo en la steam deck. De entrada tengo la idea de que son juegos con mucho contenido, y que todas la paridas que meten para hacer por el barrio sirven para darle más peso y que resulte más verosímil e inmersivo.
+Apenas empecé la historia en abril, y quiero retomarlo en la steam deck. De entrada tengo la idea de que son juegos con mucho contenido, y que todas la paridas que meten para hacer por el barrio sirven para darle más peso y que resulte más verosímil e inmersivo.
 
 (...)
 
